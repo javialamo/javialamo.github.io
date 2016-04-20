@@ -1,0 +1,150 @@
+﻿/*=============================================================
+    Author: Javier del Álamo
+
+========================================================  */
+
+/*================================
+    GENERAL STYLES
+==================================*/
+
+@import url(http://fonts.googleapis.com/css?family=Roboto); /* GOOGLE FREE FONTS */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    padding-top: 80px;
+    padding-bottom: 120px;
+}
+
+.head-set {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.pad-bottom {
+    padding-bottom: 60px;
+}
+/*================================
+    NAVBAR STYLES
+==================================*/
+.navbar-default {
+    background-color: #5882fa;
+    border-color: transparent;
+    color: #fff;
+}
+
+    .navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > li > a:hover {
+        color: #fff;
+    }
+
+.navbar-brand {
+    padding: 0px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color:#fff;
+}
+/*================================
+    ABOUT ME SECTION STYLES
+==================================*/
+/*======================================
+    PARALLAX LIKE / ABOUT ME SECTION STYLES
+=========================================*/
+
+.parallax-about {
+    background: url(../img/printed_examples.jpg) no-repeat center center; /* DEFINE IMAGE PATH CAREFULLY*/
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+}
+
+    .parallax-about .overlay {
+        min-height: 200px;
+        background: rgba(0, 0, 0,0.5);
+        font-size: 40px;
+        padding-bottom: 60px;
+        padding-top: 60px;
+    }
+
+
+/*STYLE OF BACKGROUND IMAGE*/
+
+#About_Me {
+    background: rgba(0, 0, 0, 0.9) ;
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover;
+    min-height: 200px;
+}
+
+    #About_Me h1 {
+        padding-top: 80px;
+        font-weight: 900;
+        font-size: 100px;
+        font-family: 'Browallia New';
+    }
+/*SIMPLE CLASS TO ADJUST SECTION PADDING & HEIGHT*/
+
+/*CLASS TO FORMAT TEXT*/
+.p-cls {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+/*================================
+    3D PRINTING SECTIONSTYLES
+==================================*/
+#Education {
+  color: #fff;
+  text-align: center;
+  background: rgba(250, 88, 88, 0.9);
+}
+#Education_content {
+  background: rgba(0, 0, 0, 0.9);
+}
+#Works {
+  color: #fff;
+  text-align: center;
+  background: rgba(81, 230, 81, 0.9);
+}
+#Works_content {
+  background: rgba(0, 0, 0, 0.9);
+}
+#Skills {
+  color: #fff;
+  text-align: center;
+  background: rgba(250, 172, 88, 0.9);
+}
+#Skills_content {
+  background: rgba(0, 0, 0, 0.9);
+}
+#Others {
+  color: #fff;
+  text-align: center;
+  background: rgba(80, 80, 210, 0.9);
+}
+#Others_content {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+/*================================
+    FOOTER SECTION STYLES
+==================================*/
+
+footer {
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 900;
+    background-color: #ac58fa;
+    color: #fff;
+}
+
+    footer a, footer a:hover {
+        color: #fff;
+        text-decoration: none;
+    }

@@ -1,0 +1,210 @@
+﻿/*=============================================================
+    Author: Javier del Álamo
+
+========================================================  */
+
+/*================================
+    GENERAL STYLES
+==================================*/
+
+@import url(http://fonts.googleapis.com/css?family=Roboto); /* GOOGLE FREE FONTS */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    padding-top: 80px;
+    padding-bottom: 120px;
+}
+
+.head-set {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.pad-bottom {
+    padding-bottom: 60px;
+}
+/*================================
+    NAVBAR STYLES
+==================================*/
+.navbar-default {
+    background-color: #5882fa;
+    border-color: transparent;
+    color: #fff;
+}
+
+    .navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > li > a:hover {
+        color: #fff;
+    }
+
+.navbar-brand {
+    padding: 0px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color:#fff;
+}
+/*================================
+    ABOUT ME SECTION STYLES
+==================================*/
+/*======================================
+    PARALLAX LIKE / ABOUT ME SECTION STYLES
+=========================================*/
+
+.parallax-about {
+    background: url(../img/printed_examples.jpg) no-repeat center center; /* DEFINE IMAGE PATH CAREFULLY*/
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+}
+
+    .parallax-about .overlay {
+        min-height: 200px;
+        background: rgba(0, 0, 0,0.5);
+        font-size: 40px;
+        padding-bottom: 60px;
+        padding-top: 60px;
+    }
+
+
+/*STYLE OF BACKGROUND IMAGE*/
+
+#About_Me {
+    background: url(../img/printed_examples.jpg) no-repeat center center; /*Full Witdth background image*/
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover;
+    min-height: 600px;
+}
+    /*STYLE FOR OVERLAY CLASS - WHICH IS ABOVE IMAGE WITH OPACITY/TRANSPARENCY 0.75*/
+    #About_Me .overlay {
+        padding-top: 90px;
+        background-color: rgba(0, 0, 0,0.75); /*.75 opacity of the color so that background image is visible*/
+        min-height: 600px;
+        color: #fff;
+    }
+
+    #About_Me h1 {
+        padding-top: 80px;
+        font-weight: 900;
+        font-size: 100px;
+        font-family: 'Browallia New';
+    }
+/*SIMPLE CLASS TO ADJUST SECTION PADDING & HEIGHT*/
+
+/*CLASS TO FORMAT TEXT*/
+.p-cls {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    font-size: 30px;
+}
+
+/*================================
+    3D PRINTING SECTIONSTYLES
+==================================*/
+#Printing_3D {
+  color: #fff;
+  text-align: center;
+}
+
+#Printing_3D h1 {
+    padding-top: 80px;
+    font-size: 40px;
+    font-weight: 900;
+    padding-bottom: 30px;
+}
+
+    #Printing_3D .overlay {
+        background: rgba(250, 88, 88, 0.75);
+        min-height: 300px;
+        color: #fff;
+    }
+
+/*======================================
+    PARALLAX LIKE / STATS SECTION STYLES
+=========================================*/
+
+#Software {
+  color: #fff;
+  text-align: center;
+  background: url(../img/atom.png) no-repeat center center;
+}
+
+#Software .overlay {
+    background: rgba(88, 250, 88, 0.55);
+    min-height: 300px;
+    color: #fff;
+}
+
+#Software h1 {
+    padding-top: 80px;
+    font-size: 40px;
+    font-weight: 900;
+    padding-bottom: 30px;
+}
+
+#Software_slider {
+  background: #f2f2f2;
+}
+
+/*================================
+    PORTFOLIO / WORK SECTION STYLES
+==================================*/
+.portfolio-item img:hover { /* POSTFOLIO IMAGE BIG ON HOVER */
+    cursor: pointer;
+    -webkit-transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+    transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s; /* Safari */
+    z-index: 1;
+}
+
+/*================================
+    VIDEO SECTION STYLES
+==================================*/
+#Hardware {
+    color: #fff;
+    text-align: center;
+}
+
+    #Hardware .overlay {
+        background-color: rgba(250, 172, 88, 0.65);
+        min-height: 300px;
+        color: #fff;
+    }
+
+    #Hardware h1 {
+        padding-top: 80px;
+        font-size: 40px;
+        font-weight: 900;
+        padding-bottom: 30px;
+    }
+
+    /*================================
+        HARDWARE SECTION STYLES
+    ==================================*/
+    #Hardware_slider {
+      background: #f2f2f2;
+    }
+/*================================
+    FOOTER SECTION STYLES
+==================================*/
+
+footer {
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 900;
+    background-color: #ac58fa;
+    color: #fff;
+}
+
+    footer a, footer a:hover {
+        color: #fff;
+        text-decoration: none;
+    }
